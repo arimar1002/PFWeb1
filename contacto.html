@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="estilos_generales.css" rel="stylesheet" type="text/css">
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@200;400;600&display=swap" rel="stylesheet">
+<link href="estilos_iconos.css" rel="stylesheet" type="text/css">
+<link href="estilos_contacto.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  	<div class="contenedor">
+    
+    <div id="logo"><img class="imglogo" src="imgs/logo1_ees.png" width="2391" height="420" alt=""/></div><!--finlogo-->
+    <input type="checkbox" id="menu-bar"/>
+    <label for="menu-bar" class="icon-menu"></label>
+    
+    
+    <nav>
+      <ul>
+        <li><a href="inicio.html" target="_self" id="primero"><span class="icon-home"></span>Inicio</a></li>  
+		<li><a href="nosotros.html" target="_self" id="segundo"><span class="icon-light-bulb"></span>Nosotros</a></li>
+        <li><a href="servicios.html" target="_self" id="tercero"><span class="icon-tools"></span>Servicios</a></li>			
+        <li><a href="productos.html" target="_self" id="cuarto"><span class="icon-slideshare"></span>Productos</a></li>
+        <li><a href="contacto.html" target="_self" id="quinto"><span class="icon-old-phone"></span>Contáctanos</a></li>
+
+        </ul>
+      </nav>
+  		</div><!--fincontenedormenu-->
+	</header>
+	
+<section id="mapa">
+	<div id="overlay"></div>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3844.4452030952334!2d-88.04321728525794!3d15.514246358192246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f665b41f1780c93%3A0x3958af31edfe6fed!2sEES%20CORPORATION!5e0!3m2!1sen!2shn!4v1669930158010!5m2!1sen!2shn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</section><!--fin mapa-->
+	
+	
+	<section id="formulario">
+<div class="contenedor">	
+	<form>
+		<div id="campos">
+		<input type="text" placeholder="Nombre Completo" class="campos">
+		<input type="text" placeholder="Email" class="campos">
+		<input type="text" placeholder="Ciudad" class="campos">
+		<input type="text" placeholder="Teléfono" class="campos"> 
+		<input type="text" placeholder="Asunto" class="campos">
+		<input type="text" placeholder="Compañía" class="campos">
+		<input type="text" placeholder="Su consulta" class="consulta">
+		</div>	<!--fin campos-->
+		<input type="submit" value="Enviar" id="botonenviar">
+		
+	</form>
+		</div><!--fin contenedor-->
+	</section><!--fin formulario-->
+	
+	
+<footer>
+  <div class="contenedor">
+      <div class="derechos">EES CORPORATION</div>
+     	 <div class="redes">
+        	<a href="https://www.facebook.com/search/top?q=ees%20corporation" target="new" class="icon-facebook"></a>
+        	<a href="https://www.youtube.com/channel/UCwIUh36kfpK5NBOfw6G1LWA/" target="new" class="icon-youtube"></a>
+        	<a href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F22288103%2F" target="new" class="icon-linkedin"></a>
+        	<a href="mailto:sales@ees-corporation.com" target="new" class="icon-mail"></a>
+        </div>
+   </div>
+    </footer>
+		
+</body>
+</html>
