@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+#cuarto{
+	background-color: #ffffff;
+	color: #030303;
+	border-radius: 25px;
+}
+
+@media(max-width: 1024px){
+	#cuarto{
+		margin: 10px;
+	}
+}
+
+
+#productos .contenedor{
+	margin: auto;
+	width: 80%;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	
+}
+
+article .container{
+	position: relative;
+ 	 width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+#productos img{
+	display: block;
+	width: 100%;
+	max-width: 280px;
+	height: auto; 
+}
+
+#productos h2, #productos p{
+	max-width: 260px;
+	text-align: center;
+}
+
+
+
+#productos article{
+	margin: 15px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  
+}
+
+.container:hover .overlay{
+  height: 100%;
+}
+
+
+
+#article p{
+	
+  color: #050505;
+  font-size: 20px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 10px, 0px, 0px, 0px;
+}
